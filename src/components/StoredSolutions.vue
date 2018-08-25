@@ -9,12 +9,13 @@ export default {
     components: {
 
     },
-    data() {
+    data () {
         return {
-            calculations: [],
+            calculations: []
         }
     },
     methods: {
+    
     }
 }
 </script>

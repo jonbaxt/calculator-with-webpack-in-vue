@@ -1,30 +1,28 @@
 <template>
-  <div id="app">
+  <div id='app'>
     <basecalc></basecalc>
     </div>
 </template>
 
 <script>
-import BaseCalculator from './BaseCalculator.vue';
+import BaseCalculator from './BaseCalculator.vue'
 export default {
   components: {
-    basecalc: BaseCalculator,
+    basecalc: BaseCalculator
   },
-  data() {
+  data () {
     return {
-      msg: "Hey Buddy!!",
-    };
+      msg: 'Hey Buddy!!'
+    }
   },
-  methods: {
-
-  },
+  methods: {},
   computed: {}
 }
 </script>
 
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -34,21 +32,17 @@ export default {
   justify-content: center;
   align-items: center;
 }
-
 h1, h2 {
   font-weight: normal;
 }
-
 ul {
   list-style-type: none;
   padding: 0;
 }
-
 li {
   display: inline-block;
   margin: 0 10px;
 }
-
 a {
   color: #42b983;
 }
